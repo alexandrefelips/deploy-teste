@@ -1,13 +1,13 @@
-defaultPortal: PROD
+defaultPortal: deploy-test
 portals:
-  - name: PROD
+  - name: deploy-test
     portalId: 22144728
     authType: personalaccesskey
     auth:
       tokenInfo:
         accessToken: >-
-          COiM1JOXMBIJAA0AAAAA4A0DGNjNxwogl5ugDCju6QwyFN8L_MilBElidGPkBD7qtbHXKykyOjcAAARBAAAAeAAAAAAAAAAAAAAAAAAAAAQAAMAHAP7_MTwAAAYAAABgAAAAAAAAAAAAAAAAADACQhSvGRPgpdcwkrkDTOIqBZ51TPqLM0oDbmExUgBaAA
-        expiresAt: '2022-06-17T16:18:00.939Z'
+          CKCB95OXMBIJAA0AAAAA4A0DGNjNxwogl5ugDCju6QwyFA-MmfXeOhrvIqMx8k_hF3dscV_DOjcAAARBAAAAeAAAAAAAAAAAAAAAAAAAAAQAAMAHAP7_MTwAAAYAAABgAAAAAAAAAAAAAAAAADACQhRh5qdCCqzvgJFbLGC44aKO-63G90oDbmExUgBaAA
+        expiresAt: '2022-06-17T16:27:32.900Z'
     personalAccessKey: >-
       CiRkNGMxZTJmZS04MmJhLTQ5YzYtYWMyOC01YzgzNzgyNTg1NWUQ2M3HChiXm6AMKhkABeaRgvjuNUJ8IZSOmzWOTMyXJPkUO6XDSgNuYTE
     uses: HubSpot/hubspot-cms-deploy-action@v1.6
