@@ -17,8 +17,8 @@ jobs:
           npm install
       - name: Generate hubspot.config.yml and deploy
         env:
-          HUBSPOT_PORTAL_ID: ${{ secrets.HubSpotPortalId }}
-          HUBSPOT_API_KEY: ${{ secrets.HubSpotApiKey }}
+          HUBSPOT_PORTAL_ID: 22144728
+          HUBSPOT_API_KEY: 9b017377-aaff-42ba-98b3-9a75ca245b6a
         run: |
           bin/generate-config.js
           bin/deploy.sh
