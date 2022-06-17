@@ -8,13 +8,13 @@ const portalId = process.env.HUBSPOT_PORTAL_ID;
 const apiKey = process.env.HUBSPOT_API_KEY;
 
 const portalConfig = {
-  name: "PROD",
+  name: "deploy-test",
   portalId,
   apiKey,
 };
 
 const config = {
-  defaultPortal: "PROD",
+  defaultPortal: "deploy-test",
   portals: [portalConfig],
 };
 
